@@ -41,7 +41,7 @@ def search(resultFolder,query,itemnum):
                 # 得到基本的搜索条目数量
                 # <div id="result-stats">Page 2 of about 32,200,000 results<nobr> 
                 # (0.34 seconds)&nbsp;</nobr></div>
-                if num==1:
+                if num==0:
                     results = soup.find_all(attrs={'id':'result-stats'})
                     for result in results:
                         if hasattr(result,'text'):
@@ -49,11 +49,11 @@ def search(resultFolder,query,itemnum):
                             if result_num is None:
                                 continue
                             num_ = result_num.split(' ')
-                            print('result_num:',num_[4])
-                            worksheet.write(0, 0,  num_[4]) 
-                            worksheet.write(0, 1,  'title') 
-                            worksheet.write(0, 2,  'abstract') 
-                            worksheet.write(0, 3,   'urls') 
+                            print('result_num:',num_[1])
+                            worksheet.write(0, 1,  num_[1]) 
+                            worksheet.write(0, 2,  'title') 
+                            worksheet.write(0, 3,  'abstract') 
+                            worksheet.write(0, 4,   'urls') 
 
 
                 # url在<div>标签下的<a>标签下的href值里
