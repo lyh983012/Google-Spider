@@ -26,6 +26,7 @@ def search(resultFolder,query,itemnum):
     worksheet = workbook.add_worksheet(table_name) 
     urlresults = []
     num = 1
+    totalnum = 0
     while(num<itemnum+1):
         try:        
             URL = f"https://www.google.com.hk/search?q={query}&newwindow=1&ei=MSEaYcmdH9TW-QaTr7aIBg&start={num}&sa=N&ved=2ahUKEwiJ-vanj7XyAhVUa94KHZOXDWE4FBDw0wN6BAgBEEU&biw=1366&bih=773"
@@ -50,6 +51,7 @@ def search(resultFolder,query,itemnum):
                                 continue
                             num_ = result_num.split(' ')
                             print('result_num:',num_[4])
+                            totalnum = num_[4]
                             worksheet.write(0, 0,  num_[4]) 
                             worksheet.write(0, 1,  'title') 
                             worksheet.write(0, 2,  'abstract') 
@@ -111,4 +113,5 @@ def search(resultFolder,query,itemnum):
         except:
             print('重试')
     workbook.close()
+    return totalnum
 
