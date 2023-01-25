@@ -14,18 +14,19 @@ USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100
 urllib3.disable_warnings()  # 忽略https证书告警
 # desktop user-agent
 
-def search(resultFolder,query,page):
+def search(resultFolder,query,itemnum):
     query = query.replace(' ', '+')
     result_list = []
     result_number = 0
     
-    file = "./"+resultFolder+"/"+f"{query}.xlsx"
+    legalname = query = query.replace('/', 'and')
+    file = "./"+resultFolder+"/"+f"{legalname}.xlsx"
     workbook = xlsxwriter.Workbook(file)
     table_name = 'sheet1' 
     worksheet = workbook.add_worksheet(table_name) 
     urlresults = []
     num = 1
-    while(num<page+1):
+    while(num<itemnum+1):
         try:        
             URL = f"https://www.google.com.hk/search?q={query}&newwindow=1&ei=MSEaYcmdH9TW-QaTr7aIBg&start={num}&sa=N&ved=2ahUKEwiJ-vanj7XyAhVUa94KHZOXDWE4FBDw0wN6BAgBEEU&biw=1366&bih=773"
             headers = {"user-agent": USER_AGENT}
