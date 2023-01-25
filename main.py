@@ -9,7 +9,7 @@ if not isExists:
 
 
 query = input("请输入需要搜索的谷歌命令：")
-page = int(input("请输入需要爬行的页数："))
+item = int(input("请输入需要爬行的最小项目个数："))
 
-GoogleSpider.search(resultFolder,query,page)
+GoogleSpider.search(resultFolder,query,item)
 
