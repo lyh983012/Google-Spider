@@ -25,10 +25,14 @@ def search(resultFolder,query,itemnum):
     table_name = 'sheet1' 
     worksheet = workbook.add_worksheet(table_name) 
     urlresults = []
+
     num = 1
+    validnum = 1
     totalnum = 0
-    while(num<itemnum+1):
-        try:        
+    readResultNum = True
+    
+    while(validnum<itemnum+1):
+        if True:        
             URL = f"https://www.google.com/search?q={query}&newwindow=1&ei=MSEaYcmdH9TW-QaTr7aIBg&start={num}&sa=N&ved=2ahUKEwiJ-vanj7XyAhVUa94KHZOXDWE4FBDw0wN6BAgBEEU&biw=1366&bih=773"
             headers = {"user-agent": USER_AGENT}
 
@@ -42,7 +46,8 @@ def search(resultFolder,query,itemnum):
                 # 得到基本的搜索条目数量
                 # <div id="result-stats">Page 2 of about 32,200,000 results<nobr> 
                 # (0.34 seconds)&nbsp;</nobr></div>
-                if num==1:
+                if readResultNum:
+                    readResultNum = False
                     results = soup.find_all(attrs={'id':'result-stats'})
                     for result in results:
                         if hasattr(result,'text'):
@@ -50,9 +55,9 @@ def search(resultFolder,query,itemnum):
                             if result_num is None:
                                 continue
                             num_ = result_num.split(' ')
-                            print('result_num:',num_[4])
-                            totalnum = num_[4]
-                            worksheet.write(0, 0,  num_[4]) 
+                            totalnum = int(num_[4].replace(',', ''))
+                            print('result_num:',totalnum)
+                            worksheet.write(0, 0,  totalnum) 
                             worksheet.write(0, 1,  'title') 
                             worksheet.write(0, 2,  'abstract') 
                             worksheet.write(0, 3,   'urls') 
@@ -75,13 +80,14 @@ def search(resultFolder,query,itemnum):
                                     link) is None and link != '#' and link.find(
                                     'search?q') == -1:
                                     # 过滤掉重复的URL
+                                    
                                     flag = True
-                                    for res in urlresults:
-                                        if res.split(".site")[0] == link.split(".site")[0]:
+                                    for oldlink in urlresults:
+                                        if oldlink.split(".site")[0] == link.split(".site")[0]:
                                             flag = False
                                     if link in urlresults:
                                         flag = False
-                                        continue
+                                        
                                     if flag:
                                         #利用url节点找到对应的标题和摘要
                                         #print(link)
@@ -89,6 +95,7 @@ def search(resultFolder,query,itemnum):
                                         titlenode = goodurlNode.find('h3')
                                         if titlenode is None:
                                             continue
+                                        num += 1
                                         grandp = goodurlNode.parent.parent
                                         asbtractNodes = grandp.next_sibling
                                         if asbtractNodes is not None:
@@ -99,19 +106,21 @@ def search(resultFolder,query,itemnum):
                                                     continue
                                                 urlresults.append(link)
                                                 result_list.append([titlenode.text,mytext,link])
+                                                break
+                                        if num>=totalnum:
+                                            break
 
             # 每爬一页写入一次文件
             for res in result_list:
-                result_number += 1
-                worksheet.write(result_number, 0, " ") 
-                worksheet.write(result_number, 1,  res[0])
-                worksheet.write(result_number, 2,  res[1])
-                worksheet.write(result_number, 3,  res[2])
+                validnum += 1
+                worksheet.write(validnum, 0, " ") 
+                worksheet.write(validnum, 1,  res[0])
+                worksheet.write(validnum, 2,  res[1])
+                worksheet.write(validnum, 3,  res[2])
+            print('progress:',validnum,' items has been recorded')
 
-            print('progress:',num,' items has been recorded')
-            num += 8
-        except:
+        else:
             print('重试')
     workbook.close()
-    return totalnum
+    return validnum
 

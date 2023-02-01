@@ -1,0 +1,295 @@
+Site Name,Address,"Category
+BCR=Bar, Club, or Restraurant
+R=Residence
+PV=Performance Avenue
+CEI=Cultural or Educational Institutions
+OCS=Organization or Community Spaces
+        PS=Public Spaces       
+SB=Store or Business ","Status
+(Y=Existent; N=Non-Existent)","Cultural
+Specifier
+ Needed
+(Y=yes; N=no)",Source Index
+Bar Room 432,432 WEST 14TH STREET,BCR,Y,N,1
+Mother Courage,342 WEST 11TH STREET,BCR,Y,G,1
+Ramrod Bar,394-395 WEST STREET,BCR,Y,YG,1
+Cubby Hole,438-444 HUDSON STREET,BCR,Y,N,1
+Henrietta Hudson,438-444 HUDSON STREET,BCR,Y,N,1
+Crazy Nanny's,21 SEVENTH AVENUE SOUTH,BCR,Y,G,1
+Paradise Garage,84 KING STREET,BCR,N,G,1
+Sea Colony,48-52 EIGHTH AVENUE,BCR,Y,Y,1
+Uncle Charlie's,56 GREENWICH AVENUE,BCR,Y,N,1
+Julius',159 WEST 10TH STREET,BCR,Y,N,1
+Snake Pit,215 WEST 10TH STREET,BCR,Y,Y,1
+Stonewall Inn,51-53 CHRISTOPHER STREET,BCR,Y,N,1
+Stewart's Cafeteria,116 SEVENTH AVENUE SOUTH,BCR,Y,N,1
+Pandora's Box,70 GROVE STREET,BCR,Y,YG,1
+The Bagatelle,86 UNIVERSITY PLACE,BCR,Y,YG,1
+Pfaff's,647 BROADWAY,BCR,Y,G,1
+Mad Hatter,150 WEST 4TH STREET,BCR,Y,G,1
+Pony Stable Inn,150 WEST 4TH STREET,BCR,Y,N,1
+Mona's,135-141 WEST 3RD STREET,BCR,Y,G,1
+Village Purple Onion,135-141 WEST 3RD STREET,BCR,Y,N,1
+Eve's Hangout,129 MACDOUGAL STREET,BCR,Y,N,1
+Tony Pastor's Downtown,130 WEST 3RD STREET,BCR,Y,N,1
+Gay Community Center,130 WEST 3RD STREET,BCR,Y,N,1
+Swing Rendezvous,117 MACDOUGAL STREET,BCR,Y,G,1
+Pompier Restaurant,82 WEST 3RD STREET,BCR,Y,N,1
+Tenth of Always,82 WEST 3RD STREET,BCR,Y,G,1
+Bonnie & Clyde,82 WEST 3RD STREET,BCR,Y,YG,1
+San Remo Cafe,189 BLEECKER STREET,BCR,Y,N,1
+Black Rabbit,183 BLEECKER STREET,BCR,Y,G,1
+Portofino,206 THOMPSON STREET,BCR,Y,Y,1
+Eve Addams Tea Room,129 MACDOUGAL STREET,BCR,Y,N,2
+The Snake Pit,135 CHARLES STREET,BCR,Y,G,2
+Polly's Restaurant,133-139 MACDOUGAL STREET,BCR,Y,Y,2
+Liberal Club,133-139 MACDOUGAL STREET,BCR,Y,G,2
+Heterodoxy Club,133-139 MACDOUGAL STREET,BCR,Y,G,2
+The Pyramid Club,101 AVENUE A,BCR,Y,N,2
+The Slide ,157 BLEECKER STREET,BCR,Y,Y,2
+Life Cafeteria,SHERIDAN SQUARE,BCR,Y,N,2
+Scene One,432 HUDSON STREET,BCR,Y,YG,3
+Le Bistroquet,90 BEDFORD STREET,BCR,Y,Y,3
+Bleeker Street Bar,302 BLEECKER STREET,BCR,Y,Y,3
+David's Pot Belly,98 CHRISTOPHER STREET,BCR,Y,N,3
+Cafe Bohemia,17 BARROW STREET,BCR,Y,Y,3
+"One if by Land, Two if by Sea",17 BARROW STREET,BCR,Y,Y,3
+Boots and Saddles,61 GROVE STREET,BCR,Y,Y,3
+Marie's Crisis,59 GROVE STREET,BCR,Y,Y,3
+Upstairs/Downstairs,55 GROVE STREET,BCR,Y,YG,3
+The Duplex,55 GROVE STREET,BCR,Y,Y,3
+Rose's Turn,55 GROVE STREET,BCR,Y,G,3
+Billy's,152 WAVERLY PLACE,BCR,Y,YG,3
+Uncle Paul's,8 CHRISTOPHER STREET,BCR,Y,YG,3
+Pharaoh's,8 CHRISTOPHER STREET,BCR,Y,YG,3
+Pieces Bar,8 CHRISTOPHER STREET,BCR,Y,N,3
+Headless Horseman,140 WEST 10TH STREET,BCR,Y,YG,3
+Tor's Restaurant,21 GREENWICH AVENUE,BCR,Y,YG,3
+Roger's,21 GREENWICH AVENUE,BCR,Y,YG,3
+The New Colony,15 GREENWICH AVENUE,BCR,Y,G,3
+Casual-aire,1 CHRISTOPHER STREET,BCR,Y,G,3
+One Potato,518 HUDSON STREET,BCR,Y,G,3
+Yellow Brick Road,228 WEST 10TH STREET,BCR,Y,YG,3
+Jupiter Cafe,228 WEST 10TH STREET,BCR,Y,YG,3
+Clyde's,218 WEST 10TH STREET,BCR,Y,YG,3
+Aldo's,218 WEST 10TH STREET,BCR,Y,YG,3
+Manatus,218 WEST 10TH STREET,BCR,Y,G,3
+Casa Paco,330-338 BLEECKER STREET ,BCR,Y,Y,3
+The Checkerboard,105 CHRISTOPHER STREET,BCR,Y,YG,3
+The Leather Man,111 CHRISTOPHER STREET,BCR,Y,G,3
+The Gallery Delicatessen,77 CHRISTOPHER STREET,BCR,Y,G,3
+Green Hornet,115 CHRISTOPHER STREET,BCR,Y,YG,3
+Duff's,115 CHRISTOPHER STREET,BCR,Y,G,3
+The Hangar Bar,115 CHRISTOPHER STREET,BCR,Y,N,3
+Carr's,204-206 WEST 10TH STREET,BCR,Y,YG,3
+Buddy-Buddy Bar,679 GREENWICH STREET,BCR,Y,G,3
+Danny's,679 GREENWICH STREET,BCR,Y,YG,3
+The Village Stix,679 GREENWICH STREET,BCR,Y,N,3
+All American Boy,501 HUDSON STREET,BCR,Y,YG,3
+Trilogy,135 CHRISTOPHER STREET,BCR,Y,YG,3
+Danny's Dancing,140 SEVENTH AVENUE SOUTH,BCR,Y,YG,3
+Page Three,140 SEVENTH AVENUE SOUTH,BCR,Y,G,3
+Woody's,140 SEVENTH AVENUE SOUTH,BCR,Y,YG,3
+Nikkta,140 SEVENTH AVENUE SOUTH,BCR,Y,YG,3
+Agave,140 SEVENTH AVENUE SOUTH,BCR,Y,YG,3
+Edelweiss Club,137 SEVENTH AVENUE SOUTH,BCR,Y,N,3
+SeeSaw,181 WEST 10TH STREET,BCR,Y,YG,3
+The Chalice,181 WEST 10TH STREET,BCR,Y,YG,3
+Peaches,181 WEST 10TH STREET,BCR,Y,YG,3
+Ninth Circle,139 WEST 10TH STREET,BCR,Y,G,3
+Charles the Fourth,49 CHARLES STREET ,BCR,Y,Y,3
+Mama's Chick n' Rib,39 GREENWICH AVENUE ,BCR,Y,Y,3
+Charlie and Kelly's,261 WEST 4TH STREET ,BCR,Y,G,3
+Ruby Fruit Bar & Grill,528-536 HUDSON STREET,BCR,Y,Y,3
+Horn of Plenty,91 CHARLES STREET ,BCR,Y,G,3
+Tant Bella Casa,143 PERRY STREET,BCR,Y,YG,3
+International Bar,117-119 PERRY STREET,BCR,Y,YG,3
+The International Stud,117-119 PERRY STREET,BCR,Y,YG,3
+Up in the Barn,314 WEST 11TH STREET ,BCR,Y,YG,3
+Jeannie's Patio,48 WEST 8TH STREET,BCR,Y,Y,3
+Dr. Feelgood's,101-105 WAVERLY PLACE,BCR,Y,YG,3
+Omnibus,69 WEST 10TH STREET,BCR,Y,YG,3
+Paula's bar,64 GREENWICH AVENUE,BCR,Y,G,3
+Belly Button,68 GREENWICH AVENUE,BCR,Y,YG,3
+Clit Club,432 WEST 14TH STREET,BCR,Y,G,4
+Lee's Mardi Gras Ball,400 WEST 14TH STREET,BCR,Y,N,4
+Puta Scandalosa At Mother,432 WEST 14TH STREET,BCR,Y,N,4
+Her Bar,113 JANE STREET,BCR,Y,G,4
+Industria Girl Parties,775 WASHINGTON STREET,BCR,Y,YG,4
+The Rusty Knot,425 WEST STREET,BCR,Y,Y,4
+Rubyfruit Bar,531 HUDSON STREET,BCR,Y,G,4
+Yummy At Cafe Melville,110 BARROW STREET,BCR,Y,YG,4
+Nell's Nightclub,246 WEST 14TH STREET,BCR,Y,N,4
+Sea Colony,52 WEST 8TH AVENUE,BCR,Y,G,4
+DT’s Fat Cat,281 WEST 12TH STREET,BCR,Y,N,4
+Duchess,70 GROVE STREET,BCR,Y,Y,4
+Skin-Tight At Tribal Lounge,22 7TH AVENUE SOUTH,BCR,Y,Y,4
+220 Club,220 HOUSTON STREET,BCR,Y,YG,4
+Bar D'O,29 BEDFORD STREET,BCR,Y,N,4
+Circa At Trompe L'Oeil,55 CARMINE STREET,BCR,Y,YG,4
+The Kitten Club,277 BLEECKER STREET,BCR,Y,YG,4
+Hot Rabbit At The Monster,80 GROVE STREET,BCR,Y,N,4
+Paula's,GREENWICH AVENUE NEXT DOOR TO UNCLE CHARLIE'S,BCR,Y,YG,4
+Pam Pam's,6TH AVENUE AND WAVERLY PLACE,BCR,Y,YG,4
+Moroccan Village,23 WEST 8TH STREET,BCR,Y,G,4
+Bon Soir,40 WEST 8TH STREET,BCR,Y,G,4
+La Femme,85 WASHINGTON PLACE,BCR,Y,YG,4
+El Cafe,116 MACDOUGAL STREET,BCR,Y,YG,4
+Jimmy Kelly's,181 SULLIVAN STREET,BCR,Y,G,4
+The Life Club,158 BLEECKER STREET,BCR,Y,G,4
+Howdy Club,47 WEST 3RD STREET,BCR,Y,N,4
+Eden Club,432 LAFAYETTE STREET,BCR,Y,YG,4
+The Saint Nightclub,432 LAFAYETTE STREET,BCR,Y,G,4
+Anvil,500 WEST 14TH STREET,BCR,Y,Y,5
+The Dugout,185 CHRISTOPHER STREET,BCR,Y,G,5
+West Beach Bar & Grill,391 WEST STREET,BCR,Y,YG,5
+Badlands Bar,392 WEST STREET,BCR,Y,G,5
+Silver Dollar Restaurant,160 CHRISTOPHER STREET,BCR,Y,YG,5
+Choo Choo's Pier,392 WEST 12TH STREET,BCR,Y,G,5
+Sneakers,393 WEST 12TH STREET,BCR,Y,Y,5
+Big Dollar ,49 E Houston Street,BCR,Y,YG,6
+Club 82,82 EAST 4TH STREET,BCR,Y,G,6
+Fedora,239 WEST 4TH STREET,BCR,Y,Y,6
+The Finale Restraurant,48 BARROW STREET,BCR,Y,YG,6
+The Five Oaks,49 GROVE STREET,BCR,Y,N,6
+The Gold Bug,85 WEST 3RD STREET,BCR,Y,YG,6
+J.B.'s,105 WEST 13TH STREET,BCR,Y,G,6
+Kooky's,149 WEST 14TH STREET,BCR,Y,G,6
+Nine Plus Club,149 WEST 21ST STREET,BCR,Y,Y,6
+One-Two-Three Club,123 UNIVERSITY PL,BCR,Y,YG,6
+Tenth of Always,82 WEST 3RD STREET,BCR,Y,G,6
+Texas Chile Parlor,215 WEST 10TH STREET,BCR,Y,G,6
+Hardut's,14 WAVERLY PL,BCR,Y,G,6
+Keller Bar,384 WEST STREET,BCR,Y,N,6
+Le Bijou,164 WEST 4TH STREET,BCR,Y,YG,6
+Max's Kansas City,213 PARK AVENUE,BCR,Y,YG,6
+O.K. Corral Bar,835 WASHINGTON STREET,BCR,Y,G,6
+Tool Box Bar,507 WEST STREET,BCR,Y,G,6
+The Sewer Bar,16TH STREET NEAR 5TH AVENUE,BCR,Y,G,6
+Mineshaft ,835 WASHINGTON STREET,BCR,Y,G,6
+Zodiac Bar,12TH STREET AT WASHINGTON,BCR,Y,YG,6
+Trapazon,372 WEST 11TH STREET,BCR,Y,YG,6
+Thrush ,24 EAST 22ND STREET,BCR,Y,YG,6
+Luv Cage,4TH STREET NEAR 6TH AVENUE,BCR,Y,YG,6
+Eagle's Nest Bar,21ST STREET AT 10TH AVENUE,BCR,Y,YG,6
+Chez Stadium,56 GREENWICH AVENUE,BCR,Y,YG,6
+Hip-O-Drome,165 Avenue A,BCR,Y,YG,6
+Cinderella Club,82 WEST 3RD STREET,BCR,Y,YG,6
+City and Country School,146 WEST 13TH STREET,CEI,Y,Y,1
+Little Red School House,196 BLEECKER STREET,CEI,Y,Y,1
+Elisabeth Irwin High School,40 CHARLTON STREET,CEI,Y,Y,1
+West Side Discussion Group Center,37 NINTH AVENUE,OCS,Y,N,1
+Westbeth: Congregation Beit Simchat Torah,57 BETHUNE STREET,OCS,Y,N,1
+Village AIDS Memorial,149-155 CHRISTOPHER STREET,OCS,Y,N,1
+Woman's Coffeehouse,54 SEVENTH AVENUE SOUTH,OCS,Y,N,1
+Liberation House,247 WEST 11TH STREET,OCS,Y,Y,1
+Mattachine Society,59 CHRISTOPHER STREET,OCS,Y,G,1
+LGBT Community Center,208 WEST 13TH STREET,OCS,Y,G,1
+Metropolitan-Duane United Methodist Church,201 WEST 13TH STREET,OCS,Y,Y,1
+St. Joseph's Roman Catholic Church,371 SIXTH AVENUE,OCS,Y,Y,1
+Parish House,135 & 133 WEST 4TH STREET,OCS,Y,YG,1
+The League at the Amato Opera Theater,159 BLEECKER STREET,OCS,Y,N,1
+Judson Memorial Church,55 WASHINGTON SQUARE SOUTH,OCS,Y,Y,1
+Gay Liberation Front at Alternate U.,530 SIXTH AVENUE / 69 WEST 14TH STREET,OCS,Y,N,1
+Erickson Educational Foundation New York Office,41 FIFTH AVENUE,OCS,Y,Y,1
+National Gay Task Force Headquarters,80 FIFTH AVENUE,OCS,Y,N,1
+WeWah,404 LAFAYETTE STREET,OCS,Y,YG,1
+BarCheeAmpe,404 LAFAYETTE STREET,OCS,Y,YG,1
+Cooper Union Great Hall,7 EAST 7TH STREET,OCS,Y,Y,2
+Daughters of Bilitis,141 PRINCE STREET,OCS,Y,G,2
+Gay Activist Alliance Firehouse,99 WOOSTER STREET,OCS,Y,N,2
+Hetrick-Martin Institute,401 WEST STREET,OCS,Y,N,2
+Medusa's Revenge,10 BLEECKER STREET,OCS,Y,YG,2
+Randy Wicker's Uplife Lighting Corp.,506 HUDSON STREET,OCS,Y,N,2
+Randy Wicker's Underground Uplift Unlimited,28 ST MARKS PL,OCS,Y,N,2
+SAGE at the Church of St. Luke's in the Fields,479-485 HUDSON STREET,OCS,Y,N,2
+Street Tranversite Action Revolutionaries House,213 EAST 2ND STREET,OCS,Y,N,2
+Webster Hall,125 EAST 11TH STREET,OCS,Y,N,2
+Gay Activists Alliance Community,180 CHRISTOPHER STREET,PS,Y,G,1
+NYC AIDS Memorial,St. VINCENT'S TRIANGLE,PS,Y,N,1
+Stonewall National Monument,CHRISTOPHER PARK,PS,Y,N,1
+Elmer Ephraim Ellsworth Flagpole,CHRISTOPHER PARK,PS,Y,N,1
+Gay Activists Alliance Zaps,70 EAST 10TH STREET,PS,Y,G,1
+Harvey Milk High School,2 ASTOR PLACE,PS,Y,Y,2
+Judson Memorial Church,55 WASHINGTON SQUARE SOUTH,PS,Y,Y,2
+St. Joseph's Church,371 SIXTH AVENUE,PS,Y,Y,2
+Washington Square Methodist Episcopal Church,135 WEST 4TH STREET,PS,Y,Y,2
+Wigstock Festival,TOMPKINS SQUARE PARK,PS,Y,N,2
+Metropolitan-Duane United Methodist Church,201 WEST 13TH STREET,PS,Y,Y,4
+The Women's House Of Detention,10 GREENWICH AVENUE,PS,Y,G,4
+Merce Cunningham Dance Company,55 BETHUNE STREET,PV,Y,G,1
+Circle Repertory Company Theater,99 SEVENTH AVENUE SOUTH,PV,Y,G,1
+Caffe Cino,31 CORNELIA STREET,PV,Y,N,1
+Cafe Society,1 SHERIDAN SQUARE,PV,Y,G,1
+Ridiculous Theatrical Company,1 SHERIDAN SQUARE,PV,Y,G,1
+The Other Side of Silence (TOSOS) ,115 BEDFORD STREET,PV,Y,N,3
+Eighty-Eight's,228 WEST 10TH STREET,PV,Y,G,3
+Reno Sweeney,126 WEST 13TH STREET,PV,Y,G,3
+Cherry Lane Theater,75A BEDFORD STREET,PV,Y,Y,5
+James Baldwin Residence,81 HORATIO STREET,R,Y,G,1
+Westbeth Artists' Housing,445-465 WEST STREET,R,Y,G,1
+Robert Rygor Residence,338 WEST 11TH STREET,R,Y,G,1
+Jimmie Daniels Residence,109 BANK STREET,R,Y,G,1
+Pauline Newman & Frieda Miller Residence,299 WEST 12TH STREET,R,Y,G,1
+Margaret Wise Brown Writing Studio,121 CHARLES STREET,R,Y,G,1
+Caroline Pratt & Helen Marot Residence,252 WEST 12TH STREET,R,Y,G,1
+Marion Dickerman & Nancy Cook Residence,171 WEST 12TH STREET,R,Y,G,1
+James Beard Residence,167 WEST 12TH STREET,R,Y,G,1
+Craig Rodwell Residence,350 BLEECKER STREET,R,Y,G,1
+Arnie Kantrowitz Residence,350 BLEECKER STREET,R,Y,G,1
+H.M. Koutoukas Residence,87 CHRISTOPHER STREET,R,Y,G,1
+Hart Crane Residence,45 GROVE STREET,R,Y,G,1
+Patricia Highsmith Residence,48 GROVE STREET,R,Y,G,1
+Anna Rochester & Grace Hutchins Residence,85 BEDFORD STREET,R,Y,G,1
+Berenice Abbott & Elizabeth McCausland Residence,50 COMMERCE STREET,R,Y,G,1
+Edna St. Vincent Millay Residence,75 BEDFORD STREET,R,Y,G,1
+Arthur Laurents & Tom Hatcher Residence,9 ST. LUKE'S PLACE,R,Y,G,1
+Paul Taylor Residence,27 VANDAM STREET,R,Y,G,1
+Tharon Musser Residence,21 CORNELIA STREET,R,Y,G,1
+Mills House No.1,160 BLEECKER STREET,R,Y,G,1
+Djuna Barnes Residence,5 PATCHIN PLACE,R,Y,G,1
+Murray Hall Residence,457 SIXTH AVENUE,R,Y,G,1
+Lorraine Hansberry Residence,112 WAVERLY PLACE,R,Y,G,1
+Eleanor Roosevelt Residence,29 WASHINGTON SQUARE WEST,R,Y,G,1
+Maurice Sendak Residence,29 WEST 9TH STREET,R,Y,G,1
+Luigi Lucioni Residence,33 WEST 10TH STREET,R,Y,G,1
+Phyllis Saperstein Residence,25 WEST 10TH STREET,R,Y,G,1
+Larry Kramer Residence,2 FIFTH AVENUE,R,Y,G,1
+Sam Wagstaff Residence,1 FIFTH AVENUE,R,Y,G,1
+Sam Morford Residence,16 EAST 8TH STREET,R,Y,G,1
+"Vernon ""Copy"" Berg Residence",39 FIFTH AVENUE,R,Y,G,1
+Mary E. Dreier & Frances A. Kellor Residence,43 FIFTH AVENUE,R,Y,G,1
+David Mancuso Residence,645-647 BROADWAY,R,Y,G,1
+186 Spring Street Residence,186 SPRING STREET,R,Y,Y,2
+Allen Ginsberg Residence,437 EAST 12TH STREET,R,Y,N,2
+Ana Maria Simo Residence,52 EAST 1ST STREET,R,Y,N,2
+David Rothenberg Residence,175 W 13TH STREET,R,Y,G,2
+Edie S. Windsor and Thea Clara Spyer Residence,2 FIFTH AVENUE,R,Y,N,2
+Ernestine Eckstein Residence,437-439 EAST 12TH STREET,R,Y,YG,2
+Esther Lape-Elizabeth Read Residence,20 EAST 11TH STREET,R,Y,G,2
+Evan Wolfson Residence,101 WEST 12TH STREET,R,Y,G,2
+"Roberta ""Robbie"" Kaplan Residence",37 WEST 12TH STREET,R,Y,Y,2
+Jerry Hoose House,130 CHRISTOPHER STREET,R,Y,G,5
+Edna St. Vincent Millay Residence,2 BEDFORD STREET,R,Y,G,5
+Margaret Mead House,2 BEDFORD STREET,R,Y,G,5
+Willa Cather - Edith Lewis Apartment,570 PARK AVENUE,R,Y,G,5
+Lee G. Brewster's Mardi Gras Boutique,400 WEST 14TH STREET,SB,Y,G,1
+Labyris,33 BARROW STREET,SB,Y,G,1
+Djuna Books,154 WEST 10TH STREET,SB,Y,YG,1
+Oscar Wilde Memorial Bookshop,15 CHRISTOPHER STREET,SB,Y,Y,1
+Antonio Lopez & Juan Ramos Studio,31 UNION SQUARE WEST,SB,Y,G,1
+Keith Haring Studio & Foundation,676 BROADWAY,SB,Y,G,1
+Louis Sullivan & the Bayard-Condict Building,67 BLEECKER STREET,SB,Y,G,1
+Columbia Hall,32 COOPER SQUARE,SB,Y,YG,2
+Paresis Hall,32 COOPER SQUARE,SB,Y,Y,2
+Harmony Video,679 GREENWICH STREET,SB,Y,YG,3
+Golden Rabbit Inc,513-515 HUDSON STREET,SB,Y,G,3
+PJ Boutique,37 GREENWICH AVENUE,SB,Y,YG,3
+Art and Ice Cream Gallery,548 HUDSON STREET,SB,Y,G,3
+A Different Light Bookstore,548 HUDSON STREET,SB,Y,G,3
+8th Street Playhouse,58 WEST 8TH STREET,SB,Y,Y,3
+Van Rensselaer Hotel,15 EAST 11TH STREET,SB,Y,Y,3
+Judith's Room,681 WASHINGTON STREET,SB,Y,N,4
+Hotel Albert,23 EAST 10TH STREET,SB,Y,YG,6
+Hotel Earle,103 WAVERLY PL AT 11TH STREET,SB,Y,YG,6
+Marlton Hotel,5 WEST 8TH STREET,SB,Y,YG,6
