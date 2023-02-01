@@ -11,6 +11,7 @@ if not isExists:
     
 listOfkey = []
 ifHasTitleCol = True
+ifNeedAddr = True
 
 with open("keywords_hy.csv","r") as csvfile:
     reader = csv.reader(csvfile)
@@ -19,13 +20,17 @@ with open("keywords_hy.csv","r") as csvfile:
             ifHasTitleCol = False
             continue 
             
-        keywordsAndAddr = line[0]+' '+line[1]
+        keywordsAndAddr = line[0]
         Specifier = line[4]
-        print("Cultural Specifier:",Specifier)
+        
+        if ifNeedAddr:
+            keywordsAndAddr += ' '+line[1]
         if 'G' in Specifier:
             keywordsAndAddr += " Greenwich"
         if 'Y' in Specifier:
             keywordsAndAddr += " LGBT"
+            
+        print("Cultural Specifier:",Specifier)
         print("Now searching: ",keywordsAndAddr)
         num = GoogleSpider.search(resultFolder,keywordsAndAddr,itemnum=24)
         listOfkey.append([line[0],num])

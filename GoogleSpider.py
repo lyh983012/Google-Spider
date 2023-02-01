@@ -34,6 +34,7 @@ def search(resultFolder,query,itemnum):
     while(validnum<itemnum+1):
         if True:        
             URL = f"https://www.google.com/search?q={query}&newwindow=1&ei=MSEaYcmdH9TW-QaTr7aIBg&start={num}&sa=N&ved=2ahUKEwiJ-vanj7XyAhVUa94KHZOXDWE4FBDw0wN6BAgBEEU&biw=1366&bih=773"
+            num += 8
             headers = {"user-agent": USER_AGENT}
 
             #headers = random.choice(headers_list)
@@ -95,7 +96,6 @@ def search(resultFolder,query,itemnum):
                                         titlenode = goodurlNode.find('h3')
                                         if titlenode is None:
                                             continue
-                                        num += 1
                                         grandp = goodurlNode.parent.parent
                                         asbtractNodes = grandp.next_sibling
                                         if asbtractNodes is not None:
@@ -107,8 +107,6 @@ def search(resultFolder,query,itemnum):
                                                 urlresults.append(link)
                                                 result_list.append([titlenode.text,mytext,link])
                                                 break
-                                        if num>=totalnum:
-                                            break
 
             # 每爬一页写入一次文件
             for res in result_list:
