@@ -29,7 +29,7 @@ def search(resultFolder,query,itemnum):
     totalnum = 0
     while(num<itemnum+1):
         try:        
-            URL = f"https://www.google.com.hk/search?q={query}&newwindow=1&ei=MSEaYcmdH9TW-QaTr7aIBg&start={num}&sa=N&ved=2ahUKEwiJ-vanj7XyAhVUa94KHZOXDWE4FBDw0wN6BAgBEEU&biw=1366&bih=773"
+            URL = f"https://www.google.com/search?q={query}&newwindow=1&ei=MSEaYcmdH9TW-QaTr7aIBg&start={num}&sa=N&ved=2ahUKEwiJ-vanj7XyAhVUa94KHZOXDWE4FBDw0wN6BAgBEEU&biw=1366&bih=773"
             headers = {"user-agent": USER_AGENT}
 
             #headers = random.choice(headers_list)
@@ -95,7 +95,7 @@ def search(resultFolder,query,itemnum):
                                             text = asbtractNodes.children
                                             for i,child in enumerate(asbtractNodes):
                                                 mytext = child.text
-                                                if mytext is None:
+                                                if mytext is None or mytext=="":
                                                     continue
                                                 urlresults.append(link)
                                                 result_list.append([titlenode.text,mytext,link])
@@ -108,7 +108,7 @@ def search(resultFolder,query,itemnum):
                 worksheet.write(result_number, 2,  res[1])
                 worksheet.write(result_number, 3,  res[2])
 
-            print('items:',num,' is recorded')
+            print('progress:',num,' items has been recorded')
             num += 8
         except:
             print('重试')
